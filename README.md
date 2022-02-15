@@ -19,9 +19,6 @@ A forum where the user can view posts as a guest and comment, upvote and post as
 [screenshot will go here]
 
 ## Installation
-Either visit the deployed site or take it and run with it.
-
-## Usage
 - Clone the repository.
 - Run `node install` in the terminal.
 - Create a `.env` file at the root directory and add your mysql credentials:
