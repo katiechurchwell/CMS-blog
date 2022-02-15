@@ -3,7 +3,6 @@ const { Post, User, Vote, Comment } = require("../../models");
 const sequelize = require("../../config/connection");
 const withAuth = require('../../utils/auth');
 
-// get all users
 router.get("/", (req, res) => {
   Post.findAll({
     order: [["created_at", "DESC"]],
@@ -102,7 +101,6 @@ router.post("/", (req, res) => {
     });
 });
 
-// PUT /api/posts/upvote
 router.put("/upvote", (req, res) => {
   router.put("/upvote", (req, res) => {
     // make sure the session exists first

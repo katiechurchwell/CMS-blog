@@ -17,11 +17,11 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-        <img src="logo.png" alt="" height="100">
+        <img src="/images/logo.png" alt="" height="100">
         </a>
         <ul class="navbar-nav justify-content-end">
-          {{#if loggedIn}}
           <li class="nav-item"><a class="nav-link active" href="/dashboard">dashboard</a></li>
+          {{#if loggedIn}}
           <li class="nav-item"><button id="logout" class="btn btn-light">logout</button></li>
           {{else}}
           <li class="nav-item"><a class="nav-link active" href="/login">login</a></li>
@@ -35,10 +35,6 @@
       {{{ body }}}
     </div>
   </main>
-
-  <footer class="position-absolute bottom-0 start-50 translate-middle">
-    © Katie Churchwell | 2022
-  </footer>
 
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
