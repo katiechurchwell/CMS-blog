@@ -1,5 +1,6 @@
-<form class="login-form">
-    <div class="mb-3">
+<div class="d-grid gap-3">
+<form class="login-form p-4">
+    <div class="mb-4">
         <label for="email-login" class="form-label">Email Address</label>
         <input type="text" class="form-control" id="email-login" />
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -13,30 +14,31 @@
     </div>
 </form>
 
-<form class="signup-form">
-    <div class="mb-3">
-        <label for="username-signup" class="form-label">Username</label>
-        <input type="text" class="form-control" id="username-signup" />
-    </div>
-    <div class="mb-3">
-        <label for="email-signup" class="form-label">Email</label>
-        <input type="text" class="form-control" id="email-signup" />
-    </div>
-    <div class="row g-3 align-items-center">
-        <div class="col-auto">
-            <label for="password-signup">Password</label>
+    <form class="signup-form p-4">
+        <div class="mb-3">
+            <label for="username-signup" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username-signup" />
         </div>
-        <div class="col-auto">
-            <input type="password" id="password-signup" />
+        <div class="mb-3">
+            <label for="email-signup" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email-signup" />
         </div>
-        <div class="col-auto">
-            <span id="passwordHelpInline" class="form-text">
-                Must be 8-20 characters long.
-            </span>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="password-signup">Password</label>
+            </div>
+            <div class="col-auto">
+                <input type="password" id="password-signup" />
+            </div>
+            <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                    Must be 8-20 characters long.
+                </span>
+            </div>
         </div>
-    </div>
-    <div>
-        <button type="submit" class="btn btn-primary">signup</button>
-    </div>
-</form>
+        <div>
+            <button type="submit" class="btn btn-primary">signup</button>
+        </div>
+    </form>
+</div>
 <script src="/javascript/login.js"></script>
