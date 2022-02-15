@@ -13,7 +13,7 @@
 A forum where the user can view posts as a guest and comment, upvote and post as an account holder.
 
 ## Deployment
-[link will go here]
+https://infinite-chamber-67506.herokuapp.com/ 
 
 ## Demo/Screenshot
 [screenshot will go here]
