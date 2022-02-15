@@ -24,7 +24,15 @@ Either visit the deployed site or take it and run with it.
 ## Usage
 - Clone the repository.
 - Run `node install` in the terminal.
+- Create a `.env` file at the root directory and add your mysql credentials:
+```
+DB_NAME="CMS_blog"
+DB_USER="root"
+DB_PW="your password"
+```
 - Sign into mysql and run `source db/schema` to intialize the database.
+
+:heavy_exclamation_mark: *Remember to add `.env` to your `.gitignore` file.*
 
 ## Questions
   If you have any questions about this project, please open an issue or use the contact information below:
