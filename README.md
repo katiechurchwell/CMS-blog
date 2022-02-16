@@ -15,8 +15,8 @@ A forum where the user can view posts as a guest and comment, upvote and post as
 ## Deployment
 https://infinite-chamber-67506.herokuapp.com/ 
 
-## Demo/Screenshot
-[screenshot will go here]
+## Screenshot
+![Screenshot of CMS Blog](/screenshot.png)
 
 ## Installation
 - Clone the repository.
