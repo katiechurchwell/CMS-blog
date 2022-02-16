@@ -14,17 +14,14 @@ async function signupFormHandler(event) {
         password,
       }),
       headers: { "Content-Type": "application/json" },
-    });
+    })
 
-    // check the response status
     if (response.ok) {
-      console.log("success");
-      document.location.replace("/dashboard");
+      console.log("ok!")
     } else {
-      alert(response.statusText);
+      alert("Error: please doublecheck your fields!")
     }
-  }
-}
+}}
 
 document
   .querySelector(".signup-form")
@@ -57,5 +54,3 @@ async function loginFormHandler(event) {
 document
   .querySelector(".login-form")
   .addEventListener("submit", loginFormHandler);
-
-

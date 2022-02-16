@@ -66,7 +66,7 @@ router.post("/", (req, res) => {
 
       res.json(dbUserData);
     });
-  });
+  })
 });
 
 router.post("/login", (req, res) => {
